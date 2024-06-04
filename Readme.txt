@@ -1,6 +1,8 @@
-Thanks for downloading this template!
+# Homepage for KCISHacker
+
+Website: [KCISHackersのホームページ](https://kcishacker.github.io)
 
 Template Name: DevFolio
-Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+Template URL: [BootstrapMade.com](https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/)
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
