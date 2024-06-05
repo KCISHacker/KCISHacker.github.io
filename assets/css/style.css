@@ -440,7 +440,7 @@ a:hover {
 }
 
 #header .logo a {
-  color: #fff;
+  color: pink;
 }
 
 #header .logo img {
@@ -510,7 +510,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background-color: pink;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -735,7 +735,7 @@ a:hover {
 }
 
 .hero .hero-title {
-  color: #fff;
+  color: pink;
   font-weight: 600;
   font-size: 3rem;
 }
@@ -749,6 +749,7 @@ a:hover {
 .hero .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
+  color: pink;
 }
 
 @media (min-width: 768px) {
@@ -811,6 +812,8 @@ a:hover {
 
 .about-mf .about-img img {
   margin-left: 10px;
+  width: 160px;
+  height: 160px;
 }
 
 @media (min-width: 767px) {
@@ -910,6 +913,11 @@ a:hover {
 .counter-num .counter {
   font-size: 2rem;
   margin-bottom: 0;
+}
+.counter-num img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
