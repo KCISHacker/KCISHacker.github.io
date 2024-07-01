@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>KCISHackersのほーむぺーじ</title>
+  <meta content="Homepage for KCISHacker" name="description">
+  <meta content="homepage" name="keywords">
+  <script>var doToggleHeaderScrolled = true;</script>
+
+  {% include head.html %}
+</head>
+
+<body>
+
+  {% include header.html %}
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">Zhuang ShengLi Database</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="An Expansive Database,A Comprehensive Database,A Voluminous Database,A Robust Database"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/img/testimonial-2.png" class="rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Project: </span> <span>Zhuang ShengLi Database</span></p>
+                        <p><span class="title-s">Goal: </span> <span>To upload softwares and databases of KCIS</span></p>
+                        <p><span class="title-s">Contact: </span> <span>KCISHacker@outlook.com</span></p>
+                        <p>
+                          <span class="title-s">GitHub: </span>
+                          <a href="https://www.github.com/KCISHacker">
+                            <img alt="GitHub Repo stars" src="https://img.shields.io/github/followers/KCISHacker">
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Progress</p>
+                    <span>KCISStudList(grade 7-12 in Json)</span> <span class="pull-right">50%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>KCISXueWuSystem(Javascript)</span> <span class="pull-right">100%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>KCISDetentionSystem(.NET Software)</span> <span class="pull-right">90%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>KCISFlipperZeroNFC(NFC File for Flipper Zero)</span> <span class="pull-right">40%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About this project
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      Zhuang ShengLi Database is a database that stores hacking softwares and leaked data about KCIS that is created
+                      and collected by KCIS Students. This project is funded anonymously. The database aimed to make students
+                      access to the internal of KCIS.
+                    </p>
+                    <p class="lead">"KCIS (Kang Chiao International School) is a comprehensive K-12 institution spanning kindergarten to high school, 
+                      with a total investment of over 1 billion yuan across a 215-acre campus. The school provides a full range of teaching 
+                      facilities, including classrooms, dorms, concert halls, gyms, and swimming pools, accommodating over 6,000 students. 
+                      Kang Chiao offers personalized education, admitting students of strong character and academic merit who meet the school's 
+                      qualifications." <i>(From <a href="https://kunshan.kcis.org.cn/default.html">KCIS Official Website</a>)</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Solutions
+              </h3>
+              <p class="subtitle-a">
+                Softwares and databases contained in the project.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          {% for item in site.data.solutions %}
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-{{ item.icon }}"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">{{ item.name }}</h2>
+                <p class="s-description text-center">
+                  {{ item.description }}
+                </p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Counter Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-num">
+                  <img src="https://counter.katomegumi.net/get/@kcishacker?theme=rule34" alt="moe-counter" />
+                <span class="counter-text">VISITORS</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-calendar-heart"></i></span>
+              </div>
+              <div class="counter-num">
+                <span class="counter-text">SINCE</span>
+                <p class="counter">Nov. 15th 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-code-slash"></i></span>
+              </div>
+              <div class="counter-num">
+                <span class="counter-text">MORE THAN</span>
+                <p class="counter">
+                  <span data-purecounter-start="0" data-purecounter-end="100000" data-purecounter-duration="1" class="purecounter"></span>
+                  +
+                </p>
+                <span class="counter-text">LINES OF CODE</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-cloud-upload-fill"></i></span>
+              </div>
+              <div class="counter-num">
+                <span class="counter-text">LAST UPDATED</span>
+                <p class="counter">Apr. 1st 2024</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Counter Section -->
+    
+    {% include footer.html %}
+
+</body>
+
+</html>

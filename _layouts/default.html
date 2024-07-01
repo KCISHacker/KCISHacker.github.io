@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>KCISHackersのほーむぺーじ - {{ page.title }}</title>
+  <meta content="{{ page.title }}" name="description">
+  <meta content="{{ page.title }}" name="keywords">
+  
+  {% include head.html %}
+
+</head>
+
+<body>
+  {% include header.html %}
+  
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="container">
+        <div id="content" class="box-shadow-full page-content">
+          {% include breadcrumb.html %}
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  {% include footer.html %}
+</body>
+
+</html>

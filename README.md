@@ -2,10 +2,32 @@
 
 Website: [KCISHackersのホームページ](https://kcishacker.github.io)
 
-Template Name: DevFolio
+Index Template Name: DevFolio
 
-Template URL: [BootstrapMade.com](https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/)
+Index Template URL: [BootstrapMade.com](https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/)
 
-Author: BootstrapMade.com
+Index Author: BootstrapMade.com
 
-License: https://bootstrapmade.com/license/
+Jekyll Theme by KCISHacker
+
+
+
+## Jekyll Theme
+
+- *_includes*
+  
+  - *navibarmore.html*: code for more section of navigation bar
+
+- *_data*
+  
+  - *navibarmore.yml*: objects in more section of navigation bar
+
+- *_docs*
+  
+  Where the docs are stored
+
+- *_layouts*
+  
+  - *default.html*: general template
+  
+  - *home.html*: index

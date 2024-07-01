@@ -1,0 +1,8 @@
+---
+- label: "Wanna Play Minecarft"
+  url: "/eaglercraft"
+- label: "Test Jekyll Theme"
+  url: "/docs/test"
+- label: "StudList"
+  url: "/StudList"
+...

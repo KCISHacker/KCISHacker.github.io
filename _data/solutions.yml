@@ -1,0 +1,20 @@
+---
+- name: "KCISStudList"
+  description: 'A <a href="https://en.wikipedia.org/wiki/JSON">Json</a> list containing students'' information incluing birthday, Card ID from grade 7 to grade 9 of 2023. With an updating program written in Python.<br><a href="https://www.github.com/KCISHacker/StudList"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KCISHacker/StudList"></a><a href="https://kcishacker.github.io/StudList"><img alt="Static Badge" src="https://img.shields.io/badge/Website-pink"></a>'
+  icon: "list-columns"
+- name: "XueWuSystem"
+  description: "A system written in Javascript that allows users to log in into Student Information System with any identity without password."
+  icon: "bar-chart"
+- name: "To Be Upload"
+  description: "To be upload"
+  icon: "upload"
+- name: "To Be Upload"
+  description: "To be upload"
+  icon: "upload"
+- name: "To Be Upload"
+  description: "To be upload"
+  icon: "upload"
+- name: "To Be Upload"
+  description: "To be upload"
+  icon: "upload"
+...

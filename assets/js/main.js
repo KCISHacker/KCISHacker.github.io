@@ -2,9 +2,12 @@
 * Template Name: DevFolio
 * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
 * Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
+* Author: BootstrapMade.com; some edit by KCISHacker
 * License: https://bootstrapmade.com/license/
 */
+
+if (typeof doToggleHeaderScrolled === "undefined" && doToggleHeaderScrolled === null) 
+  var doToggleHeaderScrolled = false;
 
 (function() {
   "use strict";
@@ -69,7 +72,7 @@
     let header = select('#header')
     let offset = header.offsetHeight
 
-    if (!header.classList.contains('header-scrolled')) {
+    if (doToggleHeaderScrolled && !header.classList.contains('header-scrolled')) {
       offset -= 16
     }
 
@@ -79,21 +82,23 @@
       behavior: 'smooth'
     })
   }
-
+  
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
-  let selectHeader = select('#header')
-  if (selectHeader) {
-    const headerScrolled = () => {
-      if (window.scrollY > 100) {
-        selectHeader.classList.add('header-scrolled')
-      } else {
-        selectHeader.classList.remove('header-scrolled')
+  if (doToggleHeaderScrolled){
+    let selectHeader = select('#header')
+    if (selectHeader) {
+      const headerScrolled = () => {
+        if (window.scrollY > 100) {
+          selectHeader.classList.add('header-scrolled')
+        } else {
+          selectHeader.classList.remove('header-scrolled')
+        }
       }
+      window.addEventListener('load', headerScrolled)
+      onscroll(document, headerScrolled)
     }
-    window.addEventListener('load', headerScrolled)
-    onscroll(document, headerScrolled)
   }
 
   /**
