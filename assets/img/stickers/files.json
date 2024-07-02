@@ -60,11 +60,6 @@
     "relative": "elon/elon/thumbs_up.jpg"
   },
   {
-    "name": "files.json",
-    "path": "/assets/img/stickers/files.json",
-    "relative": "files.json"
-  },
-  {
     "name": "chito_stretching_yuuri.png",
     "path": "/assets/img/stickers/girls_last_tour/chito_yuuri/chito_stretching_yuuri.png",
     "relative": "girls_last_tour/chito_yuuri/chito_stretching_yuuri.png"
@@ -200,11 +195,6 @@
     "relative": "k-on/tsumugi/with_determination.jpg"
   },
   {
-    "name": "2.jpg",
-    "path": "/assets/img/stickers/k-on/yui/2.jpg",
-    "relative": "k-on/yui/2.jpg"
-  },
-  {
     "name": "acting_cute.jpg",
     "path": "/assets/img/stickers/k-on/yui/acting_cute.jpg",
     "relative": "k-on/yui/acting_cute.jpg"
@@ -288,6 +278,11 @@
     "name": "looking_lower_left.jpg",
     "path": "/assets/img/stickers/k-on/yui/looking_lower_left.jpg",
     "relative": "k-on/yui/looking_lower_left.jpg"
+  },
+  {
+    "name": "peace_sign.jpg",
+    "path": "/assets/img/stickers/k-on/yui/peace_sign.jpg",
+    "relative": "k-on/yui/peace_sign.jpg"
   },
   {
     "name": "sleepy.jpg",
@@ -425,9 +420,9 @@
     "relative": "lucky_star/izumi/smiling_2.jpg"
   },
   {
-    "name": "begging.jpg",
-    "path": "/assets/img/stickers/lucky_star/kagami/begging.jpg",
-    "relative": "lucky_star/kagami/begging.jpg"
+    "name": "awkward.jpg",
+    "path": "/assets/img/stickers/lucky_star/kagami/awkward.jpg",
+    "relative": "lucky_star/kagami/awkward.jpg"
   },
   {
     "name": "explaining.jpg",
@@ -445,6 +440,11 @@
     "relative": "lucky_star/kagami/normal.jpg"
   },
   {
+    "name": "on_call.jpg",
+    "path": "/assets/img/stickers/lucky_star/kagami/on_call.jpg",
+    "relative": "lucky_star/kagami/on_call.jpg"
+  },
+  {
     "name": "proud.jpg",
     "path": "/assets/img/stickers/lucky_star/kagami/proud.jpg",
     "relative": "lucky_star/kagami/proud.jpg"
@@ -455,9 +455,9 @@
     "relative": "lucky_star/kagami/showing_recipe.jpg"
   },
   {
-    "name": "2.jpg",
-    "path": "/assets/img/stickers/nichijou/mio_n/2.jpg",
-    "relative": "nichijou/mio_n/2.jpg"
+    "name": "u_mean_me.jpg",
+    "path": "/assets/img/stickers/lucky_star/kagami/u_mean_me.jpg",
+    "relative": "lucky_star/kagami/u_mean_me.jpg"
   },
   {
     "name": "angry.jpg",
@@ -525,14 +525,19 @@
     "relative": "nichijou/mio_n/panic.jpg"
   },
   {
-    "name": "panic2.jpg",
-    "path": "/assets/img/stickers/nichijou/mio_n/panic2.jpg",
-    "relative": "nichijou/mio_n/panic2.jpg"
+    "name": "panic_2.jpg",
+    "path": "/assets/img/stickers/nichijou/mio_n/panic_2.jpg",
+    "relative": "nichijou/mio_n/panic_2.jpg"
   },
   {
-    "name": "suprise.jpg",
-    "path": "/assets/img/stickers/nichijou/mio_n/suprise.jpg",
-    "relative": "nichijou/mio_n/suprise.jpg"
+    "name": "panic_3.jpg",
+    "path": "/assets/img/stickers/nichijou/mio_n/panic_3.jpg",
+    "relative": "nichijou/mio_n/panic_3.jpg"
+  },
+  {
+    "name": "peace_sign.jpg",
+    "path": "/assets/img/stickers/nichijou/mio_n/peace_sign.jpg",
+    "relative": "nichijou/mio_n/peace_sign.jpg"
   },
   {
     "name": "suprised.jpg",
@@ -555,6 +560,11 @@
     "relative": "nichijou/nano/asking.jpg"
   },
   {
+    "name": "can_u_get_that_off.jpg",
+    "path": "/assets/img/stickers/nichijou/nano/can_u_get_that_off.jpg",
+    "relative": "nichijou/nano/can_u_get_that_off.jpg"
+  },
+  {
     "name": "delighted.jpg",
     "path": "/assets/img/stickers/nichijou/nano/delighted.jpg",
     "relative": "nichijou/nano/delighted.jpg"
@@ -575,14 +585,9 @@
     "relative": "nichijou/nano/panic.jpg"
   },
   {
-    "name": "panic2.jpg",
-    "path": "/assets/img/stickers/nichijou/nano/panic2.jpg",
-    "relative": "nichijou/nano/panic2.jpg"
-  },
-  {
-    "name": "pointing_spring.jpg",
-    "path": "/assets/img/stickers/nichijou/nano/pointing_spring.jpg",
-    "relative": "nichijou/nano/pointing_spring.jpg"
+    "name": "panic_2.jpg",
+    "path": "/assets/img/stickers/nichijou/nano/panic_2.jpg",
+    "relative": "nichijou/nano/panic_2.jpg"
   },
   {
     "name": "smiling.jpg",
@@ -590,34 +595,24 @@
     "relative": "nichijou/nano/smiling.jpg"
   },
   {
-    "name": "suprise.jpg",
-    "path": "/assets/img/stickers/nichijou/nano/suprise.jpg",
-    "relative": "nichijou/nano/suprise.jpg"
+    "name": "suprised.jpg",
+    "path": "/assets/img/stickers/nichijou/nano/suprised.jpg",
+    "relative": "nichijou/nano/suprised.jpg"
   },
   {
-    "name": "suprise2.jpg",
-    "path": "/assets/img/stickers/nichijou/nano/suprise2.jpg",
-    "relative": "nichijou/nano/suprise2.jpg"
+    "name": "suprised_2.jpg",
+    "path": "/assets/img/stickers/nichijou/nano/suprised_2.jpg",
+    "relative": "nichijou/nano/suprised_2.jpg"
   },
   {
-    "name": "normal.jpg",
-    "path": "/assets/img/stickers/nichijou/sakamoto/normal.jpg",
-    "relative": "nichijou/sakamoto/normal.jpg"
-  },
-  {
-    "name": "0_-.jpg",
-    "path": "/assets/img/stickers/nichijou/yuuko/0_-.jpg",
-    "relative": "nichijou/yuuko/0_-.jpg"
+    "name": "lying_on_table.jpg",
+    "path": "/assets/img/stickers/nichijou/sakamoto/lying_on_table.jpg",
+    "relative": "nichijou/sakamoto/lying_on_table.jpg"
   },
   {
     "name": "arguing.jpg",
     "path": "/assets/img/stickers/nichijou/yuuko/arguing.jpg",
     "relative": "nichijou/yuuko/arguing.jpg"
-  },
-  {
-    "name": "awkward.jpg",
-    "path": "/assets/img/stickers/nichijou/yuuko/awkward.jpg",
-    "relative": "nichijou/yuuko/awkward.jpg"
   },
   {
     "name": "been_hit.jpg",
@@ -635,14 +630,14 @@
     "relative": "nichijou/yuuko/desire.jpg"
   },
   {
-    "name": "introducing.jpg",
-    "path": "/assets/img/stickers/nichijou/yuuko/introducing.jpg",
-    "relative": "nichijou/yuuko/introducing.jpg"
+    "name": "froze.jpg",
+    "path": "/assets/img/stickers/nichijou/yuuko/froze.jpg",
+    "relative": "nichijou/yuuko/froze.jpg"
   },
   {
-    "name": "introducing2.jpg",
-    "path": "/assets/img/stickers/nichijou/yuuko/introducing2.jpg",
-    "relative": "nichijou/yuuko/introducing2.jpg"
+    "name": "idea.jpg",
+    "path": "/assets/img/stickers/nichijou/yuuko/idea.jpg",
+    "relative": "nichijou/yuuko/idea.jpg"
   },
   {
     "name": "lying_on_desk.jpg",
@@ -650,19 +645,84 @@
     "relative": "nichijou/yuuko/lying_on_desk.jpg"
   },
   {
+    "name": "pointing_herself.jpg",
+    "path": "/assets/img/stickers/nichijou/yuuko/pointing_herself.jpg",
+    "relative": "nichijou/yuuko/pointing_herself.jpg"
+  },
+  {
     "name": "running.jpg",
     "path": "/assets/img/stickers/nichijou/yuuko/running.jpg",
     "relative": "nichijou/yuuko/running.jpg"
   },
   {
-    "name": ".jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/.jpg",
-    "relative": "onichan_onimai/mahiro/.jpg"
+    "name": "talking.jpg",
+    "path": "/assets/img/stickers/nichijou/yuuko/talking.jpg",
+    "relative": "nichijou/yuuko/talking.jpg"
+  },
+  {
+    "name": "acting_cute.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/acting_cute.jpg",
+    "relative": "onichan_onimai/mahiro/acting_cute.jpg"
+  },
+  {
+    "name": "aggrieved.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/aggrieved.jpg",
+    "relative": "onichan_onimai/mahiro/aggrieved.jpg"
+  },
+  {
+    "name": "awkward.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/awkward.jpg",
+    "relative": "onichan_onimai/mahiro/awkward.jpg"
+  },
+  {
+    "name": "bagging.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/bagging.jpg",
+    "relative": "onichan_onimai/mahiro/bagging.jpg"
+  },
+  {
+    "name": "boggle.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/boggle.jpg",
+    "relative": "onichan_onimai/mahiro/boggle.jpg"
   },
   {
     "name": "confused.jpg",
     "path": "/assets/img/stickers/onichan_onimai/mahiro/confused.jpg",
     "relative": "onichan_onimai/mahiro/confused.jpg"
+  },
+  {
+    "name": "contempt.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/contempt.jpg",
+    "relative": "onichan_onimai/mahiro/contempt.jpg"
+  },
+  {
+    "name": "embarrassed.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/embarrassed.jpg",
+    "relative": "onichan_onimai/mahiro/embarrassed.jpg"
+  },
+  {
+    "name": "excited.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/excited.jpg",
+    "relative": "onichan_onimai/mahiro/excited.jpg"
+  },
+  {
+    "name": "frustrated.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/frustrated.jpg",
+    "relative": "onichan_onimai/mahiro/frustrated.jpg"
+  },
+  {
+    "name": "furious.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/furious.jpg",
+    "relative": "onichan_onimai/mahiro/furious.jpg"
+  },
+  {
+    "name": "furious_2.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/furious_2.jpg",
+    "relative": "onichan_onimai/mahiro/furious_2.jpg"
+  },
+  {
+    "name": "question_mark.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/question_mark.jpg",
+    "relative": "onichan_onimai/mahiro/question_mark.jpg"
   },
   {
     "name": "scared.jpg",
@@ -675,9 +735,24 @@
     "relative": "onichan_onimai/mahiro/scared_2.jpg"
   },
   {
+    "name": "scared_3.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/scared_3.jpg",
+    "relative": "onichan_onimai/mahiro/scared_3.jpg"
+  },
+  {
+    "name": "shouting.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/shouting.jpg",
+    "relative": "onichan_onimai/mahiro/shouting.jpg"
+  },
+  {
     "name": "shy.jpg",
     "path": "/assets/img/stickers/onichan_onimai/mahiro/shy.jpg",
     "relative": "onichan_onimai/mahiro/shy.jpg"
+  },
+  {
+    "name": "sick.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/sick.jpg",
+    "relative": "onichan_onimai/mahiro/sick.jpg"
   },
   {
     "name": "smiling.jpg",
@@ -685,119 +760,29 @@
     "relative": "onichan_onimai/mahiro/smiling.jpg"
   },
   {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171906332.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906332.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906332.jpg"
+    "name": "speechless.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/speechless.jpg",
+    "relative": "onichan_onimai/mahiro/speechless.jpg"
   },
   {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171906333.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906333.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906333.jpg"
+    "name": "suprised.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/suprised.jpg",
+    "relative": "onichan_onimai/mahiro/suprised.jpg"
   },
   {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171906334.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906334.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906334.jpg"
+    "name": "up.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/up.jpg",
+    "relative": "onichan_onimai/mahiro/up.jpg"
   },
   {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171906335.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906335.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906335.jpg"
+    "name": "wondering.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/wondering.jpg",
+    "relative": "onichan_onimai/mahiro/wondering.jpg"
   },
   {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171906336.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906336.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906336.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171906337.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906337.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906337.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171906341.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906341.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906341.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171906342.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906342.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906342.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171906343.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906343.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171906343.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910391.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910391.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910391.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910392.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910392.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910392.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910393.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910393.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910393.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910394.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910394.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910394.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910401.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910401.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910401.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910402.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910402.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910402.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910403.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910403.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910403.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910404.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910404.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910404.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910405.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910405.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910405.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910411.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910411.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910411.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910412.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910412.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910412.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910413.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910413.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910413.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910414.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910414.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910414.jpg"
-  },
-  {
-    "name": "\u5fae\u4fe1\u56fe\u7247_202308171910415.jpg",
-    "path": "/assets/img/stickers/onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910415.jpg",
-    "relative": "onichan_onimai/mahiro/\u5fae\u4fe1\u56fe\u7247_202308171910415.jpg"
+    "name": "wtf_is_her_doing.jpg",
+    "path": "/assets/img/stickers/onichan_onimai/mahiro/wtf_is_her_doing.jpg",
+    "relative": "onichan_onimai/mahiro/wtf_is_her_doing.jpg"
   },
   {
     "name": "eyes_closed.jpg",
@@ -840,11 +825,6 @@
     "relative": "yurucamp/nadeshiko/delighted_4.jpg"
   },
   {
-    "name": "download.jpg",
-    "path": "/assets/img/stickers/yurucamp/nadeshiko/download.jpg",
-    "relative": "yurucamp/nadeshiko/download.jpg"
-  },
-  {
     "name": "eating.jpg",
     "path": "/assets/img/stickers/yurucamp/nadeshiko/eating.jpg",
     "relative": "yurucamp/nadeshiko/eating.jpg"
@@ -858,6 +838,11 @@
     "name": "pointing.jpg",
     "path": "/assets/img/stickers/yurucamp/nadeshiko/pointing.jpg",
     "relative": "yurucamp/nadeshiko/pointing.jpg"
+  },
+  {
+    "name": "rubbing_eyes.jpg",
+    "path": "/assets/img/stickers/yurucamp/nadeshiko/rubbing_eyes.jpg",
+    "relative": "yurucamp/nadeshiko/rubbing_eyes.jpg"
   },
   {
     "name": "smiling.jpg",

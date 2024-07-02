@@ -25,19 +25,12 @@
             <div class="container">
                 <div id="content" class="box-shadow-full page-content">
                     <h1 id="title">The resource you are looking for seems to not exist!</h1>
-                    <div id="sticker_div" style="display: none;">
-                        <a id="sticker_link">
-                            <figure >
-                                <img id="sticker" height="150" alter="sticker">
-                                <figcaption style="color: #9e9e9e; font-size: 12px" id="sticker_path"></figcaption>
-                            </figure>
-                        </a>
-                    </div>
                     <span class="error">
                         <p>Error: 404</p>
                         <p>Requesting: <span id="url"></span></p>
                         <p>Current timestamp: <span id="timestamp"></span></p>
                     </span>
+                    {% include random_sticker.html %}
                     <span class="tip">Pls attempt to:<br />
                         <li>Drop an Issue on <a href="https://www.github.com/KCISHacker/KCISHacker.github.io">GitHub</a></li>
                         <li>Return to this page later sometime</li>
@@ -50,17 +43,9 @@
                     ><br />
                     <em>Message from Jekyll</em>
                     <script>
+                        // Display details
                         document.getElementById('url').innerText = window.location.pathname;
                         document.getElementById('timestamp').innerText = Math.floor(new Date().getTime() / 1000).toString();
-                        fetch("/assets/img/stickers/files.json")
-                        .then((response) => response.json())
-                        .then((files) => {
-                            const file = files[Math.floor(Math.random() * files.length)];
-                            console.log(file);
-                            document.getElementById('sticker_link').href = document.getElementById('sticker').src = file.path;
-                            document.getElementById('sticker_path').textContent = file.relative;
-                            document.getElementById('sticker_div').style.display = '';
-                        })
                     </script>
                 </div>
             </div>
@@ -68,14 +53,6 @@
     </div>
 
     {% include footer.html %}
-
-    <!-- <script>
-        const randomIndex = Math.floor(Math.random() * imagePaths.length);
-        const response = fetch('/assets/img/stickers/files.json');
-        const files = response.json();
-        document.getElementById('sticker_link').href = document.getElementById('sticker').src = files.path;
-        document.getElementById('sticker_path').textContent = files.name;
-    </script> -->
 </div>
 </body>
 </html>

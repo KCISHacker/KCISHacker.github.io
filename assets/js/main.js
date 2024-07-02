@@ -175,52 +175,17 @@ if (typeof doToggleHeaderScrolled === "undefined" && doToggleHeaderScrolled === 
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
+      typeSpeed: 50,
+      backSpeed: 10,
       backDelay: 2000
     });
   }
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate lightbox 
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
+  const lightbox = GLightbox({
+    selector: 'img:not(.no-lightbox), .lightbox'
   });
 
   /**
@@ -238,4 +203,8 @@ if (typeof doToggleHeaderScrolled === "undefined" && doToggleHeaderScrolled === 
    */
   new PureCounter();
 
+  /*
+   * Initiate AOS
+   */
+  AOS.init();
 })()

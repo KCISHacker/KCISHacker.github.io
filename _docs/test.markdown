@@ -27,7 +27,7 @@ Ciallo～(∠・ω< )⌒★
 |1|2|
 
 Picture:  
-![kagami](/assets/pictures/kagami.jpg)
+![kagami](/assets/img/stickers/lucky_star/kagami/laughing.jpg)
 
 - 1
 - 2
@@ -75,3 +75,10 @@ int main(){ // A program that counts English characters in a sentence
 
 #### Does not support latex
 $f(x) = \frac{2x}{5} + x^3$
+
+### Animations
+
+<div data-aos="fade-up" data-aos-duration="1000" style="font-size: 50px">
+    AOS Supported
+</div>
+<span class="typed" data-typed-items="typed.js supported, Make typing animation with typed.js"></span>
