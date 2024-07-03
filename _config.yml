@@ -43,6 +43,7 @@ plugins:
 exclude:
   - README.md
   - /assets/img/stickers/structure.py
+  - LICENSE
 
 # Exclude from processing.
 # The following items will not be processed, by default.
