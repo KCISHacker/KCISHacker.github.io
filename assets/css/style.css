@@ -1079,4 +1079,7 @@ blockquote{
 .page-content{
   margin-top: 100px;
   margin-bottom: 0px;
+  img, iframe{
+    max-width: 100%;
+  }
 }

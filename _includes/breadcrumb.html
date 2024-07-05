@@ -1,9 +1,13 @@
-{% if page.url != "/" %}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item">
-      <a href="/"><i class="bi bi-house-door"></i></a>
-    </li>
+    {% if page.url != "/" %}
+      <li class="breadcrumb-item">
+        <a href="/">
+          <i class="bi bi-house-door"></i>
+        </a>
+      </li>
+    {% endif %}
+
     {% assign crumbs = page.url | split: '/' %}
     {% for crumb in crumbs offset: 1 %}
       {% if forloop.last %}
@@ -12,12 +16,11 @@
         </li>
       {% else %}
         <li class="breadcrumb-item">
-          <a href="{{ crumb | prepend: '/' | absolute_url }}">
-            {{ crumb | replace:'/',' ' }}
+          <a href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{{ crumbs | slice: 0, crumb_limit | join: '/' }}/">
+            {{ crumb | replace:'_',' ' | capitalize }}
           </a >
         </li>
       {% endif %}
     {% endfor %}
   </ol>
 </nav>
-{% endif %}
