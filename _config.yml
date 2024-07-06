@@ -30,20 +30,18 @@ github_username:  KCISHacker
 collections:
   docs:
     output: true
-    permalink: /docs/:path/
+    permalink: /docs/:path
 defaults:
   - scope:
       path: ""
-      type: "docs"
     values:
       layout: "default"
 plugins:
-  - jekyll-feed
   - jekyll-redirect-from
 exclude:
-  - README.md
   - /assets/img/stickers/structure.py
   - LICENSE
+  - README.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
