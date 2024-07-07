@@ -1,24 +1,34 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    {% if page.url != "/" %}
       <li class="breadcrumb-item">
+        {% if page.url != "/" %}
         <a href="/">
           <i class="bi bi-house-door"></i>
         </a>
+        {% else %}
+        <i class="bi bi-house-door"></i>
+        {% endif %}
       </li>
-    {% endif %}
 
     {% assign crumbs = page.url | split: '/' %}
+    {% assign parent_directory = crumbs.size | minus: 3 %}
     {% for crumb in crumbs offset: 1 %}
       {% if forloop.last %}
-        <li class="breadcrumb-item active" aria-current="page">
-          {{ page.title }}
-        </li>
+        {% if crumb == "" or crumb == "index" %}
+        {% else %}
+          <li class="breadcrumb-item active" aria-current="page">
+            {{ page.title }}
+          </li>
+        {% endif %}
       {% else %}
         <li class="breadcrumb-item">
-          <a href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{{ crumbs | slice: 0, crumb_limit | join: '/' }}/">
-            {{ crumb | replace:'_',' ' | capitalize }}
-          </a >
+          {% if forloop.index0 == parent_directory and crumbs.last == "" or crumbs.last == "index" %}
+              {{ crumb }}
+          {% else %}
+            <a href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{{ crumbs | slice: 0, crumb_limit | join: '/' }}/">
+              {{ crumb }}
+            </a >
+          {% endif %}
         </li>
       {% endif %}
     {% endfor %}
