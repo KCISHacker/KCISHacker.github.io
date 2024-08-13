@@ -3,7 +3,7 @@ layout: default
 title: Updating Scripts
 ---
 
-Four Python scripts are been provided in this index.
+Four Python scripts are provided in this index.
 
 | File                                   | Description                                                                                                                                                                       |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
