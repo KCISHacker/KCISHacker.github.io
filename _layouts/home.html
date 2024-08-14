@@ -165,7 +165,7 @@
               </div>
               <div class="counter-num">
                 <span class="counter-text">SINCE</span>
-                <p class="counter">Nov. 15th 2023</p>
+                <p class="counter">Nov. 15 2023</p>
               </div>
             </div>
           </div>
@@ -175,9 +175,9 @@
                 <span class="ico-circle"><i class="bi bi-code-slash"></i></span>
               </div>
               <div class="counter-num">
-                <span class="counter-text">MORE THAN</span>
+                <span class="counter-text">TOTAL OF</span>
                 <p class="counter">
-                  <span data-purecounter-start="0" data-purecounter-end="100000" data-purecounter-duration="1" class="purecounter"></span>
+                  <span data-purecounter-start="0" data-purecounter-end="{{site.data.stat.line_of_code }}" data-purecounter-duration="1" class="purecounter"></span>
                   +
                 </p>
                 <span class="counter-text">LINES OF CODE</span>
@@ -191,7 +191,7 @@
               </div>
               <div class="counter-num">
                 <span class="counter-text">LAST UPDATED</span>
-                <p class="counter">Apr. 1st 2024</p>
+                <p class="counter">{{ site.time | date: "%b. %d %Y" }}</p>
               </div>
             </div>
           </div>

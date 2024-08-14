@@ -22,6 +22,8 @@ Jekyll Theme by KCISHacker
   
   - *navibarmore.yml*: objects in more section of navigation bar
 
+  - *stat.yml*: Statistic data displayed on homepage
+
 - *_docs*
   
   Where the docs are stored
