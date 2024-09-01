@@ -137,6 +137,18 @@
                 <h2 class="s-title">{{ item.name }}</h2>
                 <p class="s-description text-center">
                   {{ item.description }}
+                  <br/>
+                  <!--<a href="{{ item.download }}">Download</a>-->
+                  {% if item.github %}
+                    <a href="https://www.github.com/{{ item.github }}">
+                      <img class="no-lightbox" alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ item.github }}">
+                    </a>
+                  {% endif %}
+                  {% if item.website %}
+                    <a href="{{ item.website }}">
+                      <img class="no-lightbox" alt="Static Badge" src="https://img.shields.io/badge/Website-pink">
+                    </a>
+                  {% endif %}
                 </p>
               </div>
             </div>
@@ -175,12 +187,12 @@
                 <span class="ico-circle"><i class="bi bi-code-slash"></i></span>
               </div>
               <div class="counter-num">
-                <span class="counter-text">TOTAL OF</span>
+                <span class="counter-text"></span>
                 <p class="counter">
-                  <span data-purecounter-start="0" data-purecounter-end="{{site.data.stat.line_of_code }}" data-purecounter-duration="1" class="purecounter"></span>
+                  <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
                   +
                 </p>
-                <span class="counter-text">LINES OF CODE</span>
+                <span class="counter-text">DAYS OF SERVE</span>
               </div>
             </div>
           </div>
