@@ -15,9 +15,9 @@ To view the list, pls go to [/StudList](/StudList)
 
 To get the Json list, pls go to [/StudList/data.json](/StudList/data.json)
 
-To get the update script for this list, pls go to [/docs/StudList/update/](./update/)
+To get the update script for this list, pls go to [KCISHacker/StudListUpdater](/KCISHacker/StudListUpdater), doc for updater is at [update](update)
 
-Enjoy :)
+Enjoy :)()
 
 ## Copyright
 
