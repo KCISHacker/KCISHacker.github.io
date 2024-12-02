@@ -39,7 +39,6 @@ defaults:
 plugins:
   - jekyll-redirect-from
 exclude:
-  - /assets/img/stickers/structure.py
   - LICENSE
   - README.md
 
