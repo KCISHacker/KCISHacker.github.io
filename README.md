@@ -1,5 +1,7 @@
 # Homepage for KCISHacker
 
+***DUE TO CONSTANT ABUSE, THE WEBSITE IS PERMENTLY TAKEN DOWN***
+
 Website: [KCISHackersのホームページ](https://kcishacker.github.io)
 
 Index Template Name: DevFolio
@@ -10,8 +12,6 @@ Index Author: BootstrapMade.com
 
 Jekyll Theme by KCISHacker
 
-
-
 ## Jekyll Theme
 
 - *_includes*
@@ -21,7 +21,7 @@ Jekyll Theme by KCISHacker
 - *_data*
   
   - *navibarmore.yml*: objects in more section of navigation bar
-
+  
   - *stat.yml*: Statistic data displayed on homepage
 
 - *_docs*
