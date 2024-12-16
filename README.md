@@ -1,6 +1,6 @@
 # Homepage for KCISHacker
 
-***DUE TO CONSTANT ABUSE, THE WEBSITE IS PERMENTLY TAKEN DOWN***
+***DUE TO CONSTANT ABUSE, THE WEBSITE HAS NOW BEEN PERMENTLY TAKEN DOWN***
 
 Website: [KCISHackersのホームページ](https://kcishacker.github.io)
 
