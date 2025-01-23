@@ -4,9 +4,6 @@ title: SORRY!!
 redirect_from:
    - /docs/
    - /docs/StudList/
-   - /StudList/
-   - /StudList/view.html
-   - /StudList/random.html
 ---
 
 ## DUE TO REPORTS OF CONSTANT ABUSE, THIS WEBSITE HAS NOW BEEN **PERMANENTLY** TAKEN DOWN BY KCISHACKERS
